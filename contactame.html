@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<!--
+    contactame.html
+    Isaac Castelo Valenzuela - 216823
+    Aplicaciones Web
+-->
+<html> 
+    <head>
+        <title>Contactame</title>
+        <link rel="icon"  type="image/png"  href="img/logoHeader.png">
+        <link rel="stylesheet" href="css/estilos.css">
+        <link rel="stylesheet" href="https:cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>
+            <main><center><h1>Contactame</h1></center></main>
+            
+            <div id="fotoLogo">
+                <img src="img\itsonLogo.png" alt="LogoItson" class="fotoLogo">
+            </div>
+
+            <div id="textoStart">
+                <p>Si te interesaria platicar o buscar algo para jugar juntos no dudes en contactarme.</p>
+            </div>
+            <div id="contactForm">
+                <form action="mailto:correo@tudominio.com" method="post" enctype="text/plain">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required><br><br>
+                    
+                    <label for="direccion">Dirección:</label>
+                    <input type="text" id="direccion" name="direccion"><br><br>
+                    
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required><br><br>
+                    
+                    <label for="ocupacion">Ocupación:</label>
+                    <input type="text" id="ocupacion" name="ocupacion"><br><br>
+                    
+                    <label for="aficiones">Aficiones:</label>
+                    <textarea id="aficiones" name="aficiones" rows="4" cols="50"></textarea><br><br>
+
+                    <div class="buttons">
+                        <input type="submit" value="Enviar">
+                        <input type="reset" value="Restablecer">
+                    </div>
+                </form>
+            </div>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html">
+                            <i class="fas fa-home"></i>
+                            <span class="nav-item">Inicio</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="horario.html">
+                            <i class="fas fa-calendar"></i>
+                            <span class="nav-item">Horario</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="descripcion.html">
+                            <i class="fas fa-info"></i>
+                            <span class="nav-item">Descripcion</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="aficiones.html">
+                            <i class="fas fa-book-open"></i>
+                            <span class="nav-item">Aficiones</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="contactame.html">
+                            <i class="fas fa-user"></i>
+                            <span class="nav-item">Contactame</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <center><footer><br>Este sitio web fue desarollado por Isaac Castelo Valenzuela <br>ITSON 2023 - Aplicaciones Web</footer></center>
+    </body>
+</html>
